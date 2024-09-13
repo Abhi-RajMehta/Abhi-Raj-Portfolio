@@ -7,10 +7,12 @@
 html{ 
     scroll-behavior: smooth;
 }
+body{
+    background-image:url(Image/Rectangle14.png);
+}
 .icons{
     height: 418vh;
     width: 100%;
-    background: #c9dfe1;
 
 }
 nav{
@@ -79,21 +81,13 @@ span{
 .info a:hover{
     color: rgb(255, 255, 255);
 }
-header
-{
-    width: 45%;
-    height: 100%;
-    position: relative;
-    bottom: 0;
-    right: 100px;
-}
 .header img{
-    height: 70vh;
     position: absolute;
+    height: 70vh;
     left: 80%;
     bottom: 0;
     transform: translate(-50%);
-    margin: 80px 50px;
+    margin: 80px;
     transition: bottom 1s;
 }
 .header img:hover.back-image{
@@ -354,4 +348,96 @@ form textarea{
     color: #f82424;
     display: block;
 }
+nav .fas {
+    display: none;
+}
 /* for compactiable screen*/
+@media only screen and (max-width: 600px) {
+    body {
+     background-image:url(Image/Frame1.png);
+     width: 100%;
+     height: 100%;
+    }
+    .header img{
+        position: absolute;
+        height: 50vh;
+        left: 60%;
+        bottom: 170px;
+        transform: translate(-50%);
+        margin: 50px; 
+        transition: bottom 1s;
+    }
+        .header img:hover.img{
+          bottom: 90px;
+        }
+        .image img{
+            left: 55px;
+            width: 70px;
+            height: 70px;
+            bottom: 200px;
+        }
+    .info{
+        margin-top: 77%;
+        font-size: 15px;
+    }
+    .info h1{
+        font-size: 30px;
+    }
+
+    nav .fas{
+    display: block;
+    font-size: 35px;
+}
+nav ul{
+    background: #ff044f;
+    position: fixed;
+    top:-5px;
+    right: -190px;
+    width: 170px;
+    height: 90vh;
+    padding-top: 50px;
+    z-index: 2;
+    border-bottom: 20%;
+    transition: right 0.5s;
+}
+nav ul li{
+    display: block;
+    margin: 25px;
+}
+nav ul .fas{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+}
+.container{
+    font-size: px;
+}
+.about-column-1,.about-column-2{
+    flex-basis: 100%;
+}
+.about-column-2{
+    font-size: 14px;
+}
+.tab-title{
+    font-size: 16px;
+    margin-right: 25px;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(310px,1fr));
+    grid-gap:30px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    
+  }
+  .title{
+    white-space: nowrap;
+  }
+  .work-list{
+    grid-template-columns: repeat(auto-fit,minmax(310px,1fr));
+    grid-gap:30px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+  }
+}

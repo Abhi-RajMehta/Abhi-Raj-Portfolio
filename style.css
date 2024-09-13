@@ -236,7 +236,7 @@ span{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
     grid-gap:50px;
-    margin-top: 50px;
+    margin-top:50px;
 }
 .work{
     border-radius: 10px;
@@ -361,7 +361,7 @@ nav .fas {
     .header img{
         position: absolute;
         height: 50vh;
-        left: 60%;
+        left: 80%;
         bottom: 170px;
         transform: translate(-50%);
         margin: 50px; 
@@ -423,21 +423,36 @@ nav ul .fas{
     font-size: 16px;
     margin-right: 25px;
 }
+.title{
+    white-space: nowrap;
+    margin-left: 10px;
+  }
 .services-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(310px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     grid-gap:30px;
     margin-top: 50px;
     letter-spacing: 2px;
+    padding: 10px;
     
   }
-  .title{
-    white-space: nowrap;
-  }
   .work-list{
-    grid-template-columns: repeat(auto-fit,minmax(310px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+    position: relative;
     grid-gap:30px;
     margin-top: 50px;
     letter-spacing: 2px;
   }
+  .sub-title{
+    white-space: nowrap;
+
+  }
+  .copyright{
+    width: 128%;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 250;
+    margin-right: 20px;
+    background: rgb(52, 50, 50);
 }
+  }

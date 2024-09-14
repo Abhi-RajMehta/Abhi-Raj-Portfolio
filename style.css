@@ -387,6 +387,7 @@ nav .fas {
     nav .fas{
     display: block;
     font-size: 35px;
+    margin-left: 75%;
 }
 nav ul{
     background: #ff044f;
@@ -407,7 +408,7 @@ nav ul li{
 nav ul .fas{
     position: absolute;
     top: 25px;
-    left: 25px;
+     margin-left: 20px;
     cursor: pointer;
 }
 .container{

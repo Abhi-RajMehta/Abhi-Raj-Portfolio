@@ -405,6 +405,10 @@ nav ul li{
     display: block;
     margin: 25px;
 }
+    nav ul li a{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}  
 nav ul .fas{
     position: absolute;
     top: 25px;

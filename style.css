@@ -354,7 +354,7 @@ nav .fas {
 /* for compactiable screen*/
 @media only screen and (max-width: 600px) {
     body {
-     background-image:url();
+     background-color: linear-gradient(90deg,#82e7db,#ffdab9);
      width: 100%;
      height: 100%;
     }

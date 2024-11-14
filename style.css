@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-image:url(Image/Rectangle14.png);
+    background-image: linear-gradient(90deg,#82e7db,#ffdab9);  
 }
 .icons{
     height: 418vh;
